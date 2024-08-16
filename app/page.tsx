@@ -46,7 +46,7 @@ export default function Home() {
                   We’re here to Increase your Productivity
                 </h1>
                 <Image
-                  src={"/line.png"}
+                  src={"/underline.svg"}
                   height={26}
                   width={479}
                   alt={"decoretion line"}
@@ -75,14 +75,19 @@ export default function Home() {
             </h2>
             <div className="flex gap-10 items-center justify-center w-full ">
               <div className="flex items-center justify-center gap-5">
-                <Image src={"/unsp.png"} height={32} width={32} alt={"logo1"} />
+                <Image
+                  src={"/unsplash.svg"}
+                  height={32}
+                  width={32}
+                  alt={"logo1"}
+                />
                 <span className="text-[#A6A6A6] text-3xl font-semibold">
                   Unsplash
                 </span>
               </div>
               <div className="flex items-center justify-center gap-5">
                 <Image
-                  src={"/notion.png"}
+                  src={"/notion.svg"}
                   height={32}
                   width={32}
                   alt={"logo1"}
@@ -93,7 +98,7 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-center gap-5">
                 <Image
-                  src={"/inter.png"}
+                  src={"/intercom.svg"}
                   height={32}
                   width={32}
                   alt={"logo1"}
@@ -104,7 +109,7 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-center gap-5">
                 <Image
-                  src={"/descript.png"}
+                  src={"/descript.svg"}
                   height={32}
                   width={32}
                   alt={"logo1"}
@@ -114,7 +119,12 @@ export default function Home() {
                 </span>
               </div>
               <div className="flex items-center justify-center gap-5">
-                <Image src={"/gram.png"} height={32} width={32} alt={"logo1"} />
+                <Image
+                  src={"/grammarly.svg"}
+                  height={32}
+                  width={32}
+                  alt={"logo1"}
+                />
                 <span className="text-[#A6A6A6] text-3xl font-semibold">
                   grammarly
                 </span>
@@ -140,7 +150,7 @@ export default function Home() {
             <div className="flex justify-start gap-5">
               <div className="w-[60px] h-[60px] bg-[#FFFFFF] flex justify-center items-center rounded-md drop-shadow-sm">
                 <Image
-                  src={"/publish.png"}
+                  src={"/publishing.svg"}
                   height={30}
                   width={30}
                   alt={"img1"}
@@ -157,7 +167,7 @@ export default function Home() {
             <div className="flex justify-start gap-5">
               <div className="w-[60px] h-[60px] bg-[#FFFFFF] flex justify-center items-center rounded-md drop-shadow-sm">
                 <Image
-                  src={"/analytics.png"}
+                  src={"/analytics.svg"}
                   height={30}
                   width={30}
                   alt={"img1"}
@@ -172,7 +182,12 @@ export default function Home() {
             </div>
             <div className="flex justify-start gap-5">
               <div className="w-[60px] h-[60px] bg-[#FFFFFF] flex justify-center items-center rounded-md drop-shadow-sm">
-                <Image src={"/eng.png"} height={30} width={30} alt={"img1"} />
+                <Image
+                  src={"/engagement.svg"}
+                  height={30}
+                  width={30}
+                  alt={"img1"}
+                />
               </div>
               <div className="flex flex-col justify-start align-top gap-[10px]">
                 <h3 className="text-[28px] font-bold">Engagement</h3>
@@ -207,19 +222,19 @@ export default function Home() {
                 <h1 className="text-white text-6xl font-bold">
                   People are Saying About Pokemons
                 </h1>
-                <h4 className="text-gray-500 text-lg font-semibold">
+                <h4 className="text-white text-lg font-semibold">
                   Everything you need to accept to pokemon and evolve it to
                   battle anywhere on the planet!
                 </h4>
-                <h1 className="italic text-7xl text-gray-500 font-black">"</h1>
-                <p className="text-gray-400">
+                <h1 className="italic text-7xl text-white font-black">"</h1>
+                <p className="text-white">
                   I have been using Pokemons for a while now and I can say that
                   it has been a great experience. I have been able to catch a
                   lot of Pokemons and I have been able to evolve them to battle
                   anywhere on the planet. I would recommend Pokemons to anyone
                   who is looking for a great experience.
                 </p>
-                <p className="text-gray-400">_ Aria Zinanrio</p>
+                <p className="text-white">_ Aria Zinanrio</p>
               </div>
               <div></div>
             </div>
