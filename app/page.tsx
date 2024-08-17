@@ -53,9 +53,9 @@ export default function Home() {
                 />
               </div>
               <p className="font-medium">
-                Let's make your work more organize and easily using the Taskio
-                Dashboard with many of the latest featuresin managing work every
-                day.
+                Let&apos;s make your work more organize and easily using the
+                Taskio Dashboard with many of the latest featuresin managing
+                work every day.
               </p>
 
               <button className="bg-[#54BD95] rounded-full w-[165px] h-[62px] text-white px-4 py-2">
@@ -226,7 +226,9 @@ export default function Home() {
                   Everything you need to accept to pokemon and evolve it to
                   battle anywhere on the planet!
                 </h4>
-                <h1 className="italic text-7xl text-white font-black">"</h1>
+                <h1 className="italic text-7xl text-white font-black">
+                  &quot;
+                </h1>
                 <p className="text-white">
                   I have been using Pokemons for a while now and I can say that
                   it has been a great experience. I have been able to catch a

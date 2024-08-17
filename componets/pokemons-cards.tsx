@@ -18,7 +18,7 @@ interface PokemonDetails {
 
 export async function PokemonsCards() {
   headers();
-  const pokemons: Pokemon[] = await (async () => {
+  const pokemons: PokemonDetails[] = await (async () => {
     try {
       const response = await fetch("https://pokeapi.co/api/v2/pokemon/");
       if (!response.ok) {
